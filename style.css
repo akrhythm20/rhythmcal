@@ -17,7 +17,11 @@ body{
 	top: 20px;
 	position: relative;
 	border-radius: 5px;
+	transition : transform .2s;
 	box-shadow: 0 4px 8px 0 rgba(43, 42, 42, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#calculator:hover{
+	transform : scale(1.5);
 }
 #result{
 	height: 120px;
